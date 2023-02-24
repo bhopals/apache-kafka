@@ -1,6 +1,4 @@
-## apache-kafka
-
-Apache Kafka
+## Apache Kafka
 
 ### Apache Kafka Use Cases
 
