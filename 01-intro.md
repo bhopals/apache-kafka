@@ -18,6 +18,27 @@
   - Back-pressure Handling - Cache Data till Subscriber consumes it
   - Reliability through persisting Queue data and tracking consumption of data
 
+#### What is Kafka
+
+- What is Apache Kafka?
+
+  - Kafka is Events/Messages Streaming Platform
+  - Events and Messages represents the actual data that is exchanges through Kafka
+  - Critical piece of the Big Data puzzle
+  - Open-source with Commercial options
+  - Most popular messaging plaform in the world
+  - Producers (Publishers) push messages to Kafka
+  - Consumers (Subscribers) listen and receive messages from Kafka
+  - Producers and Consumers are standard terms to represent Publishers and Subscribers
+
+- What Capabilities does Kafka Provide for data exchange? (Kafka Data Functions)
+  - Collection - It collects messages from Multiple producers concurrently
+  - Storage - It provides persistent storage of the messages received
+  - Fault Tolerance Capabilities
+  - Transport - It transports data across from Producers to Consumers. With mirroring capabilities, it can also transport data across networks
+  - Distribution - It distributes data to multiple concurrent consumers for downstream processing
+  - Tracking - It provides tracking of message consumption by each consumer. This ensures atleast once delivery of messages even if the consumers go down and come back again
+
 ### Keywords
 
 - Building Distriuted Services
@@ -28,3 +49,17 @@
 - Clean and Scalable Solution
 - Decoupling of Publisher and Subscriber
 - Back-Pressure Handling
+
+- Kafka is Events/Messages Sreaming Platform
+- Producers and Consumers
+- Exchange message through Kafka
+- Producers and Consumers
+- Persistant Storage
+- Fault Tolerance Capabilities
+- Exchange messages and events
+- Transports data across from Producers to Consumers
+- With Mirroring Capabilities, it can transport data across the networks
+- Distribute data to multiple concurrent consumers for downstream processing
+- Downstream processing
+- Message consumption
+- Ensure once delivery of the messages
