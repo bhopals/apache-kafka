@@ -39,6 +39,18 @@
   - Distribution - It distributes data to multiple concurrent consumers for downstream processing
   - Tracking - It provides tracking of message consumption by each consumer. This ensures atleast once delivery of messages even if the consumers go down and come back again
 
+#### Benefits of Kafka
+
+- High Throughput and can handle large quantities of data
+- Support multiple concurrent producers that can push data and multiple consumers/subscribers for the same data
+- Low Latency - It can provide high throughput with low latency of a few milliseconds. This enables a real time use cases where the latency is not noticeable end to end
+- Fault Tolerance - It provides excellent fault tolerance against failures
+- Decoupling - It decouples producers and consumers. This enables ease of configuration and management. It also makes software development a lot simpler.
+- Back Pressure Handling - One benefit of Decoupling and Storage capabilites is Back Pressure handling. Even if the producers produce data in spikes, the consumers can catch up at their own pace as Kafka provides the buffer in the middle to hold data until it gets consumed.
+- Horizontal Scalability - It provides horizontal scalability within it's architecture as to allow for producers and consumers.
+- Stream Processing - Kafka's low latency enables stream processing
+- Batching - It's store and forward capability enables Batch applications. The consumers do not need to consume the message immediately, as Kafka acts as a buffer.
+
 ### Keywords
 
 - Building Distriuted Services
@@ -63,3 +75,12 @@
 - Downstream processing
 - Message consumption
 - Ensure once delivery of the messages
+
+- High throughput and handling of large quantities of data
+- Supports multiple concurrent Producers and Consumers
+- High throughput with Low Latency
+- Provides excellent Fault tolerance against failures
+- Decoupling and Storage capabilities
+- Back Pressure handling
+- Producers produce data in spikes
+- Kafka low latency enables stream processing
