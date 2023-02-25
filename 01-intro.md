@@ -51,6 +51,20 @@
 - Stream Processing - Kafka's low latency enables stream processing
 - Batching - It's store and forward capability enables Batch applications. The consumers do not need to consume the message immediately, as Kafka acts as a buffer.
 
+#### Kafka Use Cases
+
+- Kafka enables a range of use cases both in Batch Processing and Real-time Streaming
+- USE CASES
+
+  - Asynchronous Messaging between services - It provides better reliability and manages back pressure on the server side. It provides low-latency enough for browser based realtime applications.
+  - Real time stream Processing - As messages are received in Kafka, consumers can consume them in real time, process them and trigger real time actions.
+
+  - Logging and Monitoring - Kafka queues can be used to log messages and alerts. One consumer can archive these messages in a persistent store, Another can look for key exceptions in real time and trigger alerts.
+
+  - Event Sourcing - Kafka enables the event sourcing pattern where the state of the entity can be determined using the events generator about the states of that entity.
+
+  - Realtime Analytics - Kafka enables realtime analytics. An Apache Spark and Apache Flink consumer can listen to the messages in real time and generate windows aggregation, analyze trends and generate triggers, metrics, and actions. This can be used to update realtime dashboards.
+
 ### Keywords
 
 - Building Distriuted Services
@@ -84,3 +98,14 @@
 - Back Pressure handling
 - Producers produce data in spikes
 - Kafka low latency enables stream processing
+
+- Batch Processing and Real Time Streaming
+- Provides better reliability and manage Back pressure
+- Enables Realtime stream procesing
+- Consume messages, Process messages, Trigger real time actions in RealTime
+
+- Asynchronous Messaging
+- Realtime Stream Processing
+- Logging & Monitoring
+- Event Sourcing
+- Realtime Analytics
