@@ -23,9 +23,21 @@
       - Event time is when the message is producer creates a timestamp.
       - Ingestion time is when the kafka broker timestamps it, when it stores record.
 
-  - Kafka Assigns a random key when the KEY is not provided.
+  - Kafka Assigns a random key when the KEY is not provided by the producers.
+
+#### Kafka Topics
+
+- Topics in Kafka Hold and Manage Messages
+- Topics in Kafka is an ENTITY that holds a message. It is same as Database table (Topic) with records (Messages) of the same type
+- Topic can be considered as a Queue for similar messages. Example of Topics - Sales Transations, Audit Logs, Video files
+- Kafka supports multiple topics per Kafka instance (Based on the use case)
+- Each Topic support multiple Producers to Publish data to the Topic concurrently. Similarly, multiple consumers can consumer data from this topic concurrently.
+- Each Topic has multiple Partitions that physically split data across multiple files. Each message will only be stored in one pratition.
+
+KAFKA INSTANCE(1) ==> (N) TOPICS ==> (N) PARTITIONS ==> (N) MESSAGES (KEY, VALUE, TIMESTAMP)
 
 ### KEYWORDS
 
 - Kafka Message - A Unit of data that is Collected, Stored, and Distributed by Kafka
 - Semantics of the Value
+- Topics in Kafka Hold and Manage Messages
