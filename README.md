@@ -11,7 +11,7 @@
 PRODUCER 1 PRODUCER 2 PRODUCER 3 PRODUCER 4 PRODUCER 5
 
                     ------------
-                      KAFKA      ----> DATABASE / DATA STORE
+                      KAFKA        ----> DATABASE / DATA STORE
                     ------------
 
 CONSUMER 1 CONSUMER 2 CONSUMER 3 CONSUMER 4 CONSUMER 5
