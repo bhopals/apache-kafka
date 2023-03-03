@@ -4,7 +4,7 @@
 
 - Asynchronous Messaging
 - Realtime Stream Processing
-- Logging & Monitoring
+- Logging and Monitoring
 - Event Sourcing
 - Realtime Analytics
 
