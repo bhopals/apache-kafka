@@ -40,7 +40,7 @@ KAFKA INSTANCE(1) ==> (N) TOPICS ==> (N) PARTITIONS ==> (N) MESSAGES (KEY, VALUE
 
 - A Kafka Broker is nothing but a RUNNING KAFKA Instance
 - It is a Physical Process that runs on the base operating system and executes all Kafka functions.
-- A Kafka process Listens on a Specific Port (default-9092 port - if not set)
+- A Kafka process Listens on a Specific Port (default-9092 port)
 - The Kafka Broker receives message from Producers, and Stores them locally in logs. - Subscription Management - Consumer subscribe to specific topics within the Kafka Broker. The Broker keeps track of all the active consumers. It knows about the last message that was sent to Consumer. It also keeps a heartbeat with every consumer, so when a consumer dies, it can track and reset.
 
 - Topics, Partition & Logs Management - Kafka Broker manages the lifecycle of Topics
